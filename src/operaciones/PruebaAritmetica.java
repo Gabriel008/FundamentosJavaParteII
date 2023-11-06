@@ -12,8 +12,8 @@ public class PruebaAritmetica {
         aritmetica1.b = 2;
 
         aritmetica1.sumar();
-        
-        int resultado=aritmetica1.sumarConRetorno();
+
+        int resultado = aritmetica1.sumarConRetorno(); // Punto de roptura, debbug file, seleccionar el metodo, F7 ó stepinto para redireccionar a adentro del metodo
         System.out.println("resultado desde el metodo con retorno = " + resultado);
     }
 }
