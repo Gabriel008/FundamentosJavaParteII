@@ -10,6 +10,11 @@ public class Aritmetica {
     int a;
     int b;
 
+    //Constructor vacio
+    public Aritmetica(){
+        System.out.println("Ejecutando constructor");
+    } 
+    
     //Metodo
     public void sumar() {
         int resultado = a + b;
